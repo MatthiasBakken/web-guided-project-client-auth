@@ -20,10 +20,11 @@ class Login extends React.Component {
 
   login = e => {
     e.preventDefault();
+    console.log('Clicked Login');
   };
 
   render() {
-    console.log(this.state.credentials);
+
     return (
       <div>
         <form onSubmit={this.login}>
